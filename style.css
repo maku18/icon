@@ -46,18 +46,50 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+body {
+    background: #444;
+}
 .main_wrapper {
-    background:blue;
-    height: 400px;
-    width: 550px;
-    margin: 0 auto;
+    background: white;
+    height: 221px;
+    width: 362px;
+    margin: 50px auto;
     overflow: hidden;
+    border: 1px solid;
+    border-radius: 15px;
 }
 .main_wrapper .header {
-    border: 1px solid;
-    height: 200px;
-    width: 400px;
-    border-radius: 15px;
-    margin: 40px auto;
-    padding-top: 10px;
+   padding: 15px 20px 10px 15px;
+   border-bottom: 1px solid #ddd;
+   clear: both;
+   overflow: hidden;
+}
+.main_wrapper .header .logo {
+    height: 100px;
+    width: 100px;
+    background: #556370;
+    float: left;
+}
+.main_wrapper .header .data {
+    float: right;
+    width: 210px;
+}
+.main_wrapper .header .data .name{
+    font-size: 25px;
+    font-weight: bold;
+    
+}
+.main_wrapper .header .data .email {
+    font-size: 14px;
+    padding-top: 5px;
+}
+.main_wrapper .header .data .location{
+    padding-top: 15px;
+    font-size: 13px;
+    color: #aaa;
+}
+.main_wrapper .header .data a{
+    font-size: 13px;
+    color: #5A92B4;
+    text-decoration: none;
 }
