@@ -93,3 +93,25 @@ body {
     color: #5A92B4;
     text-decoration: none;
 }
+.main_wrapper .content p {
+    color: #838383;
+    padding: 5px 27px 20px 27px;
+}
+.main_wrapper .content a{
+    text-decoration: none;
+}
+.main_wrapper .footer{
+   overflow: hidden;
+   clear: both;
+   position:relative; left: 21px; top: -10px
+}
+.main_wrapper .footer button{
+    border-radius: 5px;
+    height: 27px;
+    width: 80px;
+    text-align: right;
+    background: #F4F4F4;
+    border-width: 1px;
+    font-size: 12px;
+    font-weight: bold;
+}
